@@ -5,25 +5,26 @@ using UnityEngine.Advertisements;
 namespace MeHAds{
     public class Ads : MonoBehaviour
     {
-        /*
-        public static void RewardVideoPlacement(string gameid, bool testmode)
-        {         
-            Advertisement.Initialize(gameid, testmode);
-
-            ShowRewardedPlacement();
+        public static void ShowPlacement(string placementid) {
+            
+            if (Advertisement.IsReady()) {
+                Advertisement.Show(placementid);
+            } 
+            else {
+                Debug.LogError("MEHADS | Interstitial ad not ready at the moment! Please try again later!");
+            }
         }
-        */
             
         public static void ShowRewardedPlacement(string placementid)
         {
             // Check if UnityAds ready before calling Show method:
             if (Advertisement.IsReady())
             {
-                Advertisement.Show("rewardedVideo");
+                Advertisement.Show(placementid);
             }
             else
             {
-                Debug.Log("Interstitial ad not ready at the moment! Please try again later!");
+              Debug.LogError("MEHADS | Interstitial ad not ready at the moment! Please try again later!");
             }
         }
     }
