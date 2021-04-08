@@ -1,0 +1,21 @@
+{
+  "name": "com.meh-development.ads-system",
+  "version": "0.0.1",
+  "displayName": "Advertisment System",
+  "description": "by MeH",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "keywords": [
+    "Ads",
+    "system"
+  ],
+  "author": {
+    "name": "MeH-Development",
+    "email": "hello@meh-development.com",
+    "url": "https://www.meh-development.de"
+  },
+  "type": "template",
+  "dependencies": {
+    "com.unity.ads": "3.6.1"
+  }
+}
