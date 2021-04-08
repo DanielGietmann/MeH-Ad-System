@@ -14,7 +14,7 @@
     "email": "hello@meh-development.com",
     "url": "https://www.meh-development.de"
   },
-  "type": "template",
+  "type": "tool",
   "dependencies": {
     "com.unity.ads": "3.6.1"
   }
