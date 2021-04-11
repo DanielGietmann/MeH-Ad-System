@@ -17,7 +17,6 @@ namespace MeHAds{
             
         public static void ShowRewardedPlacement(string placementid)
         {
-            // Check if UnityAds ready before calling Show method:
             if (Advertisement.IsReady())
             {
                 Advertisement.Show(placementid);

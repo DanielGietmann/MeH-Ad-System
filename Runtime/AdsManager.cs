@@ -27,7 +27,7 @@ namespace MeHAds
             Advertisement.Initialize(gameIdAndroid, testMode);
             Debug.LogAssertion("MEHADS | Android Init");
             #elif UNITY_IOS
-             Advertisement.Initialize(gameIDIOS, testMode);
+             Advertisement.Initialize(gameIdIOS, testMode);
             Debug.LogAssertion("MEHADS | IOS Init");
             #else
             Debug.LogError("MEHADS | KEINE PLATFORM");
