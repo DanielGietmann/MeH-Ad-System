@@ -11,7 +11,7 @@ namespace MeHAds{
                 Advertisement.Show(placementid);
             } 
             else {
-                Debug.LogError("MEHADS | Interstitial ad not ready at the moment! Please try again later!");
+                Debug.Log("MEHADS | Interstitial ad not ready at the moment! Please try again later!");
             }
         }
             
@@ -23,7 +23,7 @@ namespace MeHAds{
             }
             else
             {
-              Debug.LogError("MEHADS | Interstitial ad not ready at the moment! Please try again later!");
+              Debug.Log("MEHADS | Interstitial ad not ready at the moment! Please try again later!");
             }
         }
     }
