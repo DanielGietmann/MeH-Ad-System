@@ -25,12 +25,12 @@ namespace MeHAds
         {
             #if UNITY_ANDROID
             Advertisement.Initialize(gameIdAndroid, testMode);
-            Debug.LogAssertion("MEHADS | Android Init");
+            Debug.Log("MEHADS | Android Init");
             #elif UNITY_IOS
              Advertisement.Initialize(gameIdIOS, testMode);
-            Debug.LogAssertion("MEHADS | IOS Init");
+            Debug.Log("MEHADS | IOS Init");
             #else
-            Debug.LogError("MEHADS | KEINE PLATFORM");
+            Debug.Log("MEHADS | KEINE PLATFORM");
             #endif
         }
 
@@ -61,7 +61,7 @@ namespace MeHAds
             }
 
             Advertisement.Banner.Show(bannerplacementid);
-            Debug.LogAssertion("MEHADS | Banner Init");
+            Debug.Log("MEHADS | Banner Init");
         }
     }
 }
