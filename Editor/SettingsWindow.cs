@@ -8,6 +8,10 @@ namespace MeHAds
         void OnGUI()
         {
             GUILayout.Label ("Base Settings", EditorStyles.boldLabel);
+            GUILayout.TextField("IOS ID");
+            
+            
         }
     }
+    
 }

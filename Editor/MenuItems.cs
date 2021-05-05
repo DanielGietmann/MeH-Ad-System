@@ -34,9 +34,7 @@ namespace MeHAds
         [MenuItem("Tools/MeH AD System/Open Documentation", false)]
         public static void OpenDocwebsite()
         {
-            Application.OpenURL("https://wiki.meh-development.de/index.php/MeH_AD_System");
+            Application.OpenURL("https://github.com/MeH-Development/MeH-Ad-System/wiki");
         }
-        
-               
     }
 }
